@@ -11,7 +11,31 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="style2.css" rel="stylesheet">
+	<style>
+	.accordion {
+	  background-color: #eee;
+	  color: #444;
+	  cursor: pointer;
+	  padding: 18px;
+	  width: 100%;
+	  border: none;
+	  text-align: left;
+	  outline: none;
+	  font-size: 15px;
+	  transition: 0.4s;
+	}
 
+	.activeA, .accordion:hover {
+	  background-color: #ccc;
+	}
+
+	.panel {
+	  padding: 0 18px;
+	  display: none;
+	  background-color: white;
+	  overflow: hidden;
+	}
+	</style>
 
 </head>
 <body>
@@ -25,10 +49,10 @@
 		<div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class ="navbar-nav ml-auto">
 				<li class = "nav-item">
-					<a class ="nav-link active" href="index.html">Home</a>
+					<a class ="nav-link" href="index.html">Home</a>
 				</li>
 				<li class = "nav-item">
-					<a class ="nav-link" href="blog.html">Team Blog</a>
+					<a class ="nav-link active" href="blog.html">Team Blog</a>
 				</li>
 				<li class = "nav-item">
 					<a class ="nav-link" href="about.html">About</a>
@@ -39,12 +63,39 @@
 	</div>
 </nav>
 <div class="blog-content">
+	<div class = "card">
+		<button class = "accordion">Week 1</button>
+		<div class = "panel">
+			<p>We all got together this week and spent some time getting to know each other. Things seem to be going pretty well with the ice-breakers and we've decided on what roles we'll each be taking on based on our skills. There have been some ideas about what our game will be, ranging from a cowboy shoot 'em up, to a Star Wars'esque adventure game. It's definitely given us some things to think about over the next few weeks!</p>
+		</div>
+	</div>
+
+	<div class = "card">
+		<button class = "accordion">Week 2</button>
+		<div class = "panel">
+			<p>After hours of debate, we have finally decided on the story and genre of the game. There's not a whole lot that we can say at this point other than with Red Dead Redemption 2 releasing soon we thought it would be great to have a crack at our own wild-west game. While the story isn't finalised, we can announce the protagonist: Butch Cassidy. Yes you heard right, this is going to be the story about the infamous cowboy and his adventures through the dustland plains of America!</p>
+		</div>
+	</div>
+
+	<div class = "card">
+		<button class = "accordion">Week 4</button>
+		<div class = "panel">
+			<p>With the pitch of the game out of the way, the developers have dived head first into development, already starting to build up a user interface for the game and managed to get a little cowboy outline to move around the screen. Whilst our creative team is still ironing out the storyline and map ideas, Stephen (our lead graphic designer) has already come up with a few versions of Butch for us to consider. It's going to be a tough choice but I'm sure we'll pick the right ones</p>
+		</div>
+	</div>
+
+	<div class = "card">
+		<button class = "accordion">Week 6</button>
+		<div class = "panel">
+			<p>With the first implementation of our weapon system working in the game</p>
+		</div>
+	</div>
+<!--
 	<div class="card">
 		<div class ="card-body">
 			<h6 class="card-week"><b>Week 1</b></h6>
 			<h4 class="card-StrapLine"><i>Right, let's get started !</i></h4>
-			<p class="card-text"> We started this project by familiarizing our selves with each other and our respective skills,
-				this made it easier for us to split up into groups of programmers, creatives, and project managers.
+			<p class="card-text">
 			</p>
 		</div>
 
@@ -98,83 +149,26 @@
 		</div>
 
 	</div>
-
-
-	<div class="card">
-		<div class ="card-body">
-			<h6 class="card-week"><b>Week 11</b></h6>
-			<h4 class="card-StrapLine"><i>Our game will blow your hat away !</i></h4>
-			<p class="card-text"> We had a great time as a team at the MVP showcase and really enjoying seeing all the other
-				teams hard works and efforts. We had the opportunity to stand out from the rest and proudly presented BUTCH with our cowboy hats on.
-			</p>
-		</div>
-
-	</div>
-
-
-	<div class="card">
-		<div class ="card-body">
-			<h6 class="card-week"><b>Week 12</b></h6>
-			<h4 class="card-StrapLine"><i>Welcome back to Term2.</i></h4>
-			<p class="card-text"> The team is back from the Christmas break and recharged to develop our game further.
-				We are all looking forward to spending loads of time together this term! First task for us is to think about how we will ensure quality within our game…
-			</p>
-		</div>
-
-	</div>
-
-	<div class="card">
-		<div class ="card-body">
-			<h6 class="card-week"><b>Week 14</b></h6>
-			<h4 class="card-StrapLine"><i>HUD and Health Bar working!</i></h4>
-			<p class="card-text"> Racing through our backlog from christmas, we now have a health bar displayed for our character Butch and his enemies. Really useful stuff when caught up in a War Zone!!!		</p>
-
-		</div>
-
-	</div>
-
-
-	<div class="card">
-		<div class ="card-body">
-			<h6 class="card-week"><b>Week 15</b></h6>
-			<h4 class="card-StrapLine"><i>Working through the BACKLOG </i></h4>
-			<p class="card-text"> The programming team is working closely with the design team to ensure we don’t miss out any items we wanted to include in our game BUTCH!
-				The teams are working fiercely towards the end product!
-				<br> Fantastic to be crossing of featured items in our backlog, the camera now shakes upon impact - nice stuff!
-			</p>
-		</div>
-
-	</div>
-
-
-	<div class="card">
-		<div class ="card-body">
-			<h6 class="card-week"><b>Week 16</b></h6>
-			<h4 class="card-StrapLine"><i>Time is running out!</i></h4>
-			<p class="card-text"> We haven’t long till our final demonstration and we are excited for our end project result!
-				Our game looks and feels amazing , and our cut scenes our coming along nicely! 
-			</p>
-		</div>
-
-	</div>
-
-
-	</div>
-<div class="card">
-	<div class ="card-body">
-		<h6 class="card-week"><b>Week 17</b></h6>
-		<h4 class="card-StrapLine"><i>Testing Testing Testing !</i></h4>
-		<p class="card-text"> We have been working hard to ensure the game is end user ready with no major bugs. We have been doing plenty of usability testing and are ironing out the bugs.
-			The latest bug fix is on the guns functionality while reloading which is good to know all works great.
-		</p>
-	</div>
+-->
 
 </div>
 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
 
-</div>
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("activeA");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 
-
-</div>
 </body>
-</html>         
+</html>
