@@ -5,6 +5,37 @@ html, body{
 	width: 100%;
 	font-family: "poppins", sans-seerif;	
 }
+
+#navvy{
+background-color:	#696969;
+
+}
+
+
+
+#message1{
+background-color:#e2a232;
+padding:10px;
+}
+
+#resources{
+background-color:#FF8C00;
+padding:10px;
+ }
+
+
+#card{
+
+border:1px solid #f49242;
+}
+
+#linebreak{
+border-color:#f49242;
+}
+
+
+
+
 .navbar{
 	padding:16px;
 }

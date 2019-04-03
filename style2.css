@@ -3,8 +3,13 @@ html, body{
 	height: 100%;
 	width: 100%;
 	font-family: "poppins", sans-seerif;	
-	background-color: #f49542;
+	background-color: #696969;
 }
+#navvy{
+background-color:	#696969;
+
+}
+
 .navbar{
 	padding:16px;
 }
@@ -18,7 +23,7 @@ html, body{
 	font-size:30px;
 	padding: 20px;
 	background-color:FFFFFF;
-	
+
 }
 .example p{
 	font-size:30px;
@@ -27,7 +32,7 @@ html, body{
 }
 .card{
 	margin:5px;
-	background-color: #cd5c5c;
+	background-color: #f49542;
 }
 .about-text .card{
 	height:400px:
