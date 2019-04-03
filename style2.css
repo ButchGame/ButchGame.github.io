@@ -2,11 +2,11 @@
 html, body{
 	height: 100%;
 	width: 100%;
-	font-family: "poppins", sans-seerif;	
-	background-color: #696969;
+	font-family: "poppins", sans-seerif;
+	background-color: #bbb;
 }
 #navvy{
-background-color:	#696969;
+background-color:	#fff;
 
 }
 
@@ -32,7 +32,7 @@ background-color:	#696969;
 }
 .card{
 	margin:5px;
-	background-color: #f49542;
+	background-color: #aaa;
 }
 .about-text .card{
 	height:400px:
