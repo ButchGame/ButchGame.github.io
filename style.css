@@ -1,108 +1,76 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,700");
 @import url ("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
 html, body{
-	height: 100%;
-	width: 100%;
-	font-family: "poppins", sans-seerif;	
+   height: 100%;
+   width: 100%;
+   font-family: "poppins", sans-seerif;   
 }
-
-#navvy{
-background-color:	#696969;
-
-}
-
-
-
-#message1{
-background-color:#e2a232;
-padding:10px;
-}
-
-#resources{
-background-color:#FF8C00;
-padding:10px;
- }
-
-
-#card{
-
-border:1px solid #f49242;
-}
-
-#linebreak{
-border-color:#f49242;
-}
-
-
-
-
 .navbar{
-	padding:16px;
+   padding:16px;
 }
 .navbar-nav li{
-	padding-right:20px;
+   padding-right:20px;
 }
 .nav-link{
-	font-size: 17px !important;
+   font-size: 17px !important;
 }
 .carousel-inner img{
-	width:100%;
-	height:700px;
-	
+   width:100%;
+   height:700px;
+   
 }
 .carousel-caption{
-	position: absolute;
-	top:50%;
-	transform: translateY(-50%);
+   position: absolute;
+   top:50%;
+   transform: translateY(-50%);
 }
 
 
 .carousel-caption h1{
-	font-size:500%;
-	text-transform:uppercase;
-	text-shadow:1px 1px 15px #000;
-	
+   font-size:500%;
+   text-transform:uppercase;
+   text-shadow:1px 1px 15px #000;
+   
 }
 .carousel-caption h3{
-	font-size:150%;
-	font-weight:500;
-	text-shadow:1px 1px 10px #000;
-	padding-bottom: 10px;
+   font-size:150%;
+   font-weight:500;
+   text-shadow:1px 1px 10px #000;
+   padding-bottom: 10px;
 }
 .btn-primary{
-	background-color:#f49242;
-	border: 1px solid #f49242;
-	margin:5px;
+   background-color:#f49242;
+   border: 1px solid #f49242;
+   margin:5px;
 }
 .btn-primary:hover {
-	background-color:#f48941;
-	border: 1px solid #f48941;
+   background-color:#f48941;
+   border: 1px solid #f48941;
 }
 .padding{
-	padding-bottom:20px;
+   padding-bottom:20px;
 }
 .welcome{
-	width:75%;
-	margin:0 auto;
-	padding-top: 22px;
+   width:75%;
+   margin:0 auto;
+   padding-top: 22px;
 }
 .welcome hr{
-	border:2px solid #b4b4b4;
-	width:95%;
-	margin-top:.3rem;
-	margin-bottom:1rem;
+   border:2px solid #b4b4b4;
+   width:95%;
+   margin-top:.3rem;
+   margin-bottom:1rem;
 }
 
 .fa-java{
-	color:#41c7f4;
+   color:#41c7f4;
 }
 .fa-shekel-sign{
-	color:#8e41f4;
+   color:#8e41f4;
 }
 .fa-github, .fa-java, .fa-shekel-sign{
-	font-size:64px;
-	margin:10px;
-	
+   font-size:64px;
+   margin:10px;
+   
 }
 
 /*---Media Queries --*/
@@ -111,55 +79,55 @@ border-color:#f49242;
   }
 @media (max-width: 768px) {
   .carousel-caption{
-	top:45%;
+   top:45%;
 }
 
 
 .carousel-caption h1{
-	font-size:350%;
-	text-transform:uppercase;
-	
+   font-size:350%;
+   text-transform:uppercase;
+   
 }
 .carousel-caption h3{
-	font-size:140%;
-	font-weight:400;
-	padding-bottom: .2rem;
+   font-size:140%;
+   font-weight:400;
+   padding-bottom: .2rem;
 }
 .carousel-caption .btn{
-	font-size:200%;
-	padding:8px 15px;
+   font-size:200%;
+   padding:8px 15px;
 
 }
 .display-4{
-	font-size:200%;
+   font-size:200%;
 }
 }
 @media (max-width: 576px) {
-	  .carousel-caption{
-	top:40%;
+     .carousel-caption{
+   top:40%;
 }
 
 
 .carousel-caption h1{
-	font-size:250%;
-	text-transform:uppercase;
-	
+   font-size:250%;
+   text-transform:uppercase;
+   
 }
 .carousel-caption h3{
-	font-size:110 %;
-	font-weight:400;
-	padding-bottom: .2rem;
+   font-size:110 %;
+   font-weight:400;
+   padding-bottom: .2rem;
 }
 .carousel-caption .btn{
-	font-size:90%;
-	padding:4px 8px;
+   font-size:90%;
+   padding:4px 8px;
 
 }
 .carousel-indicators{
-	display:none;
+   display:none;
 }
 .display-4{
-	font-size:160%;
+   font-size:160%;
 }
 }
 
@@ -198,11 +166,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-
-
-
-
-
-
