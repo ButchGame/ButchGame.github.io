@@ -10,7 +10,31 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 	<link href="style2.css" rel="stylesheet">
+	<style>
+	.accordion {
+	  background-color: #eee;
+	  color: #444;
+	  cursor: pointer;
+	  padding: 18px;
+	  width: 100%;
+	  border: none;
+	  text-align: left;
+	  outline: none;
+	  font-size: 15px;
+	  transition: 0.4s;
+	}
 
+	.activeA, .accordion:hover {
+	  background-color: #ccc;
+	}
+
+	.panel {
+	  padding: 0 18px;
+	  display: none;
+	  background-color: white;
+	  overflow: hidden;
+	}
+	</style>
 
 </head>
 <body>
@@ -38,12 +62,39 @@
 	</div>
 </nav>
 <div class="blog-content">
+	<div class = "card">
+		<button class = "accordion">Week 1</button>
+		<div class = "panel">
+			<p>We all got together this week and spent some time getting to know each other. Things seem to be going pretty well with the ice-breakers and we've decided on what roles we'll each be taking on based on our skills. There have been some ideas about what our game will be, ranging from a cowboy shoot 'em up, to a Star Wars'esque adventure game. It's definitely given us some things to think about over the next few weeks!</p>
+		</div>
+	</div>
+
+	<div class = "card">
+		<button class = "accordion">Week 2</button>
+		<div class = "panel">
+			<p>After hours of debate, we have finally decided on the story and genre of the game. There's not a whole lot that we can say at this point other than with Red Dead Redemption 2 releasing soon we thought it would be great to have a crack at our own wild-west game. While the story isn't finalised, we can announce the protagonist: Butch Cassidy. Yes you heard right, this is going to be the story about the infamous cowboy and his adventures through the dustland plains of America!</p>
+		</div>
+	</div>
+
+	<div class = "card">
+		<button class = "accordion">Week 4</button>
+		<div class = "panel">
+			<p>With the pitch of the game out of the way, the developers have dived head first into development, already starting to build up a user interface for the game and managed to get a little cowboy outline to move around the screen. Whilst our creative team is still ironing out the storyline and map ideas, Stephen (our lead graphic designer) has already come up with a few versions of Butch for us to consider. It's going to be a tough choice but I'm sure we'll pick the right ones</p>
+		</div>
+	</div>
+
+	<div class = "card">
+		<button class = "accordion">Week 6</button>
+		<div class = "panel">
+			<p>With the first implementation of our weapon system working in the game</p>
+		</div>
+	</div>
+<!--
 	<div class="card">
 		<div class ="card-body">
 			<h6 class="card-week"><b>Week 1</b></h6>
 			<h4 class="card-StrapLine"><i>Right, let's get started !</i></h4>
-			<p class="card-text"> We started this project by familiarizing our selves with each other and our respective skills,
-				this made it easier for us to split up into groups of programmers, creatives, and project managers.
+			<p class="card-text">
 			</p>
 		</div>
 
@@ -96,8 +147,26 @@
 		</div>
 
 	</div>
-
+-->
 
 </div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("activeA");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
 </body>
 </html>

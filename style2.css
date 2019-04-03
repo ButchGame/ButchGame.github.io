@@ -2,7 +2,7 @@
 html, body{
 	height: 100%;
 	width: 100%;
-	font-family: "poppins", sans-seerif;	
+	font-family: "poppins", sans-seerif;
 	background-color: #f49542;
 }
 .navbar{
@@ -18,7 +18,7 @@ html, body{
 	font-size:30px;
 	padding: 20px;
 	background-color:FFFFFF;
-	
+
 }
 .example p{
 	font-size:30px;
